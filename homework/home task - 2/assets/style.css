@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(247, 247, 193);
+}
+
+.main{
+    font-family: sans-serif;
+    padding: 10px auto;
+    width: 1000px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px auto;
+    height: auto;
+    background-color: white;
+
+}
+
+.header{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.note{
+    margin-left: 10px;
+    font-size: small;
+}
+
+.form{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+}
+
+.form legend,label,input,textarea{
+    margin-left: 20px;
+}
+
+.finish{
+    background-color: red;
+    color: white;
+    margin-left: 400px;
+
+}
+
+
+

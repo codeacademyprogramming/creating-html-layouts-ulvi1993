@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    height: 600px;
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    
+}
+
+.header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+    padding: 20px 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 20px 100px;
+
+
+}
+
+.account{
+    color: rgb(79, 109, 163);
+}
+
+
+.login,.form a{
+    text-decoration: none;
+    color: blue;
+
+}
+
+.form{
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+.form h1{
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.form .input{
+    width: 370px;
+    height: 40px;
+    border: 1.5px solid rgb(175, 172, 172);
+}
+
+.input.input-mail{
+    margin-top: 5px;
+    border: 2px solid green;
+    outline: none;
+}
+
+.checkbox{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.accept-text{
+    margin-left: 20px;
+}
+
+.create{
+    width: 350px;
+    color: white;
+    background-color:rgb(84, 175, 140);
+    border: 0ch solid black;
+    height: 40px;
+
+}
+
